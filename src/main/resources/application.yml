@@ -1,0 +1,33 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /xlite
+
+
+spring:
+#mysql
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xlite?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password:
+
+
+#weChat
+wx:
+  appId: wxb3315d583894a360
+  secret: 2da02d6c8a6ad1ff5c947a0dc3523b9f
+  url: https://api.weixin.qq.com/sns/jscode2session
+  grantType: authorization_code
+
+
+
+
+
+
+
+
+
+
+
+
