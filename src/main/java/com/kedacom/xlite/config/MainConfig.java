@@ -10,4 +10,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("com.kedacom.xlite.model")
 public class MainConfig {
+
+
+    public static void main(String[] args) {
+        System.out.println(11111111);
+    }
+
 }
